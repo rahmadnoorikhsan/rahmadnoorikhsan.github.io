@@ -3,7 +3,7 @@ export const profileData = {
     name: "Rahmad Noor Ikhsan",
     title: "Android Developer & Lead Technical Support",
     location: "Indonesia",
-    tagline: "Bridging the gap between robust mobile applications and reliable infrastructure.",
+    tagline: "Android Developer and Lead Technical Support who bridges the gap between building apps and solving real user problems. I write code that works—because I see firsthand what happens when it doesn't.",
     links: {
       linkedin: "https://www.linkedin.com/in/rhmdnrikhsn/",
       github: "https://github.com/rahmadnoorikhsan",
@@ -11,7 +11,8 @@ export const profileData = {
     }
   },
   about: {
-    summary: "I am a Fresh Graduate (Sept 2025) with a passion for building native and cross-platform mobile apps. Currently leading a technical support team while actively developing Android applications using Kotlin and Jetpack Compose. I have a strong background in Machine Learning and backend technologies.",
+    summary: "As a Lead Technical Support, I diagnose issues, coordinate resolutions, and ensure client satisfaction daily. This front-line experience makes me a sharper Android Developer—I don't just ship features, I build resilient applications that anticipate user pain points.\n\nBeyond coding and support, I'm passionate about mentorship. Having guided 100+ developers through IDCamp and Infinite Learning programs, I've learned that teaching deepens mastery and that great software starts with empathy.",
+    longBio: "I live at the intersection of building and fixing. As an Android Developer, I architect clean, modern applications with Kotlin and Jetpack Compose. As a Lead Technical Support, I lead issue resolution, manage escalations, and ensure teams deliver solutions that satisfy clients. This duality is my edge—understanding user frustrations firsthand shapes how I write code.\n\nOutside my core roles, I'm endlessly curious. I tinker with Linux systems, explore backend technologies, and stay current with AI/ML developments—not as job requirements, but as fuel for continuous growth.\n\nMentorship runs through everything I do. From facilitating IDCamp cohorts to guiding mentees at Infinite Learning, I've helped hundreds of aspiring developers find their footing. Teaching sharpens my own fundamentals and reminds me why clarity in code matters.\n\nLooking ahead, I'm pursuing a Master's in Business Technology or Applied AI—combining technical depth with strategic thinking to build products that truly solve problems.",
     goals: "Exploring opportunities in Master's degrees for Business Technology or Applied AI."
   },
   skills: {
