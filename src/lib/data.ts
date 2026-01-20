@@ -3,7 +3,7 @@ export const profileData = {
     name: "Rahmad Noor Ikhsan",
     title: "Android Developer & Lead Technical Support",
     location: "Indonesia",
-    tagline: "I build Android apps and lead a support team. Handling user complaints daily taught me one thing: don't ship buggy code. So I don't.",
+    tagline: "Built with the precision of an Android Dev. Maintained with the discipline of Tech Support. I engineer systems that endure.",
     links: {
       linkedin: "https://www.linkedin.com/in/rhmdnrikhsn/",
       github: "https://github.com/rahmadnoorikhsan",
@@ -11,8 +11,8 @@ export const profileData = {
     }
   },
   about: {
-    summary: "Right now, I balance two roles: Android Developer and Lead Technical Support. It's an unusual combo, but it works. Dealing with frustrated users every day changed how I write code—I prioritize stability because I've seen what happens when things break.\n\nI also spend a lot of time mentoring. I've guided 100+ developers through IDCamp and Infinite Learning programs. Honestly, teaching others is how I learned to explain complex tech in simple terms. It keeps my fundamentals sharp.",
-    longBio: "Fresh out of university in 2025, I jumped into two roles that most people don't mix: building Android apps and leading a technical support team. Sounds weird, but it makes sense to me. When you spend your mornings fixing user issues and your afternoons writing Kotlin, you naturally start writing better code.\n\nOutside work, I like tinkering. I mess around with Linux servers and backend stuff—not because I'm trying to become a DevOps engineer, just because I'm curious. Same with Machine Learning. I completed programs at Bangkit and DBS Foundation because I wanted to understand how it all connects.\n\nMentoring is something I genuinely enjoy. Between IDCamp and Infinite Learning, I've helped over a hundred developers get started. Teaching forces you to actually know your stuff, not just copy-paste from Stack Overflow.\n\nWhat's next? I'm planning to pursue a Master's in Business Technology or Applied AI. I want to combine what I know about building products with a deeper understanding of strategy and emerging tech.",
+    summary: "I don't just build apps—I engineer reliability. My background as Lead Technical Support gave me an obsession with stability; I treat every bug report as a lesson. As an Android Developer, I translate that discipline into clean, battle-tested code.\n\nLeadership means lifting others up. I've mentored 100+ developers through IDCamp and Infinite Learning, turning juniors into engineers who ship code they're proud of.",
+    longBio: "Most developers write code. I aim to build systems that survive real-world chaos.\n\nMy path is unconventional: Lead Technical Support by day, Android Developer by passion. This dual role gives me full-stack perspective—from infrastructure monitoring with Grafana to pixel-perfect Compose UIs. When your morning starts with incident reports and ends with pull requests, you learn to code differently: defensively and efficiently.\n\nI've guided 100+ developers through intensive programs. My mentorship philosophy is simple: ship code that doesn't wake you up at 3 AM.\n\nMy stack runs deep: Kotlin, Flutter, Linux, and backend observability. Not just to list them on a CV, but because understanding the full pipeline allows me to solve problems others miss.\n\nNext move: Master's in Business Tech/Applied AI. The goal isn't just to build products—it's to master the strategy behind them.",
     goals: "Exploring opportunities in Master's degrees for Business Technology or Applied AI."
   },
   skills: {
