@@ -22,73 +22,73 @@ export const profileData = {
   experience: [
     {
       role: "Lead Technical Support",
-      company: "Tech Company",
+      company: "Tamtech International",
       period: "Dec 2025 - Present",
       type: "professional",
-      description: "Leading support teams, overseeing system reliability, and managing handover documentation."
+      description: "Spearhead a cross-functional support team, orchestrating system reliability initiatives and establishing comprehensive knowledge transfer protocols to ensure seamless operations."
     },
     {
       role: "Multi-Platform App Developer Cohort",
       company: "BEKUP (Baparekraf for Startup)",
       period: "Jul 2025 - Present",
       type: "education",
-      description: "Mastering end-to-end multi-platform development using Flutter and Dart. Implementing SOLID principles and AI/ML integration in mobile apps."
+      description: "Architecting production-grade Flutter applications while applying SOLID principles and integrating AI/ML capabilities. Delivered MVP capstone demonstrating full-stack mobile proficiency."
     },
     {
       role: "Freelance Mobile Developer",
       company: "Fastwork Technologies Indonesia",
       period: "Dec 2023 - Present",
       type: "professional",
-      description: "Developing mobile apps based on client requests, bug fixing, and solution consulting for Android (Kotlin) and Cross-platform (Flutter) projects."
+      description: "Deliver end-to-end mobile solutions for diverse clients—from concept to deployment. Architect clean, maintainable Android (Kotlin/Compose) and Flutter applications while providing strategic technical consultation."
     },
     {
       role: "Discussion Squad",
       company: "Dicoding Indonesia",
       period: "Jun 2024 - Present",
       type: "volunteering",
-      description: "Helping students solve learning problems and answering technical questions in class discussion forums."
+      description: "Empower aspiring developers by providing technical guidance and debugging support across Dicoding's learning platform, accelerating student progression through complex programming challenges."
     },
     {
       role: "Expert Android Development Facilitator",
       company: "Indosat Ooredoo Hutchison Digital Camp",
       period: "May 2025 - Oct 2025",
       type: "mentorship",
-      description: "Mentored 25 participants in the Expert Level learning path. Conducted synchronous sessions and coordinated with the Dicoding Team."
+      description: "Facilitated advanced Android mastery for 25 developers through live synchronous sessions. Orchestrated curriculum delivery in partnership with Dicoding, driving high participant completion rates."
     },
     {
       role: "Machine Learning Cohort",
       company: "Coding Camp (DBS Foundation)",
       period: "Feb 2025 - Jul 2025",
       type: "education",
-      description: "Mastered ML fundamentals, Python data processing, SQL, and end-to-end model training lifecycles."
+      description: "Acquired comprehensive ML expertise spanning Python pipelines, SQL analytics, and full model training lifecycles—from data preprocessing to production-ready deployment."
     },
     {
       role: "Intermediate Android Development Facilitator",
       company: "Indosat Ooredoo Hutchison Digital Camp",
       period: "Jan 2025 - May 2025",
       type: "mentorship",
-      description: "Guided 25 participants through the Intermediate Android curriculum, ensuring timely course completion."
+      description: "Cultivated foundational Android skills for 25 developers, guiding them through intermediate concepts while maintaining high engagement and on-time completion metrics."
     },
     {
       role: "Mobile Development Assistant Mentor",
       company: "Infinite Learning Indonesia",
       period: "Aug 2024 - Dec 2024",
       type: "mentorship",
-      description: "Supported the mentor team, supervised participant practical activities, and managed logistics for class sessions."
+      description: "Coordinated mentor operations and supervised hands-on coding sessions, ensuring seamless delivery of practical activities and optimizing class logistics for participants."
     },
     {
       role: "Mobile Development Technical Mentor",
       company: "Infinite Learning Indonesia",
       period: "Jan 2024 - Jul 2024",
       type: "mentorship",
-      description: "Presented learning materials on Kotlin and Jetpack Compose. Mentored 25 mentees in the Kampus Merdeka independent study program using Agile methods."
+      description: "Spearheaded Kotlin and Jetpack Compose curriculum delivery for 25 mentees in the Kampus Merdeka program. Guided learners through research, design, and development phases using Agile methodologies."
     },
     {
       role: "Mobile Development Cohort",
       company: "Bangkit Academy (Google, Gojek, Tokopedia, Traveloka)",
       period: "Feb 2023 - Jul 2023",
       type: "education",
-      description: "Learned Android development from basic to expert. Collaborated on a massive project integrating Cloud Computing and Machine Learning."
+      description: "Progressed through Google's intensive Android curriculum from fundamentals to expert level. Collaborated on a cross-functional capstone integrating Cloud Computing and Machine Learning."
     }
   ],
   featuredProjects: [
