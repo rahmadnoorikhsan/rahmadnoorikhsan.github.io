@@ -3,7 +3,7 @@ export const profileData = {
     name: "Rahmad Noor Ikhsan",
     title: "Android Developer & Lead Technical Support",
     location: "Indonesia",
-    tagline: "Android Developer and Lead Technical Support who bridges the gap between building apps and solving real user problems. I write code that works—because I see firsthand what happens when it doesn't.",
+    tagline: "I build Android apps and lead a support team. Handling user complaints daily taught me one thing: don't ship buggy code. So I don't.",
     links: {
       linkedin: "https://www.linkedin.com/in/rhmdnrikhsn/",
       github: "https://github.com/rahmadnoorikhsan",
@@ -11,8 +11,8 @@ export const profileData = {
     }
   },
   about: {
-    summary: "As a Lead Technical Support, I diagnose issues, coordinate resolutions, and ensure client satisfaction daily. This front-line experience makes me a sharper Android Developer—I don't just ship features, I build resilient applications that anticipate user pain points.\n\nBeyond coding and support, I'm passionate about mentorship. Having guided 100+ developers through IDCamp and Infinite Learning programs, I've learned that teaching deepens mastery and that great software starts with empathy.",
-    longBio: "I live at the intersection of building and fixing. As an Android Developer, I architect clean, modern applications with Kotlin and Jetpack Compose. As a Lead Technical Support, I lead issue resolution, manage escalations, and ensure teams deliver solutions that satisfy clients. This duality is my edge—understanding user frustrations firsthand shapes how I write code.\n\nOutside my core roles, I'm endlessly curious. I tinker with Linux systems, explore backend technologies, and stay current with AI/ML developments—not as job requirements, but as fuel for continuous growth.\n\nMentorship runs through everything I do. From facilitating IDCamp cohorts to guiding mentees at Infinite Learning, I've helped hundreds of aspiring developers find their footing. Teaching sharpens my own fundamentals and reminds me why clarity in code matters.\n\nLooking ahead, I'm pursuing a Master's in Business Technology or Applied AI—combining technical depth with strategic thinking to build products that truly solve problems.",
+    summary: "Right now, I balance two roles: Android Developer and Lead Technical Support. It's an unusual combo, but it works. Dealing with frustrated users every day changed how I write code—I prioritize stability because I've seen what happens when things break.\n\nI also spend a lot of time mentoring. I've guided 100+ developers through IDCamp and Infinite Learning programs. Honestly, teaching others is how I learned to explain complex tech in simple terms. It keeps my fundamentals sharp.",
+    longBio: "Fresh out of university in 2025, I jumped into two roles that most people don't mix: building Android apps and leading a technical support team. Sounds weird, but it makes sense to me. When you spend your mornings fixing user issues and your afternoons writing Kotlin, you naturally start writing better code.\n\nOutside work, I like tinkering. I mess around with Linux servers and backend stuff—not because I'm trying to become a DevOps engineer, just because I'm curious. Same with Machine Learning. I completed programs at Bangkit and DBS Foundation because I wanted to understand how it all connects.\n\nMentoring is something I genuinely enjoy. Between IDCamp and Infinite Learning, I've helped over a hundred developers get started. Teaching forces you to actually know your stuff, not just copy-paste from Stack Overflow.\n\nWhat's next? I'm planning to pursue a Master's in Business Technology or Applied AI. I want to combine what I know about building products with a deeper understanding of strategy and emerging tech.",
     goals: "Exploring opportunities in Master's degrees for Business Technology or Applied AI."
   },
   skills: {
