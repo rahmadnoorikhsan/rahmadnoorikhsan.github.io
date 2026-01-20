@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white dark:bg-dark-bg text-gray-900 dark:text-gray-100 transition-colors duration-300;
+  }
+
+  ::selection {
+    @apply bg-kotlinPurple-500/30 text-white;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-techBlue-400 via-kotlinPurple-500 to-techBlue-400 bg-300% bg-clip-text text-transparent animate-gradient;
+  }
+
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl;
+  }
+
+  .glow-effect {
+    @apply relative;
+  }
+
+  .glow-effect::before {
+    content: '';
+    @apply absolute -inset-1 bg-gradient-to-r from-techBlue-500 to-kotlinPurple-500 rounded-lg blur-lg opacity-25 group-hover:opacity-50 transition-opacity duration-300;
+  }
+
+  .terminal-window {
+    @apply bg-dark-card border border-dark-border rounded-lg overflow-hidden font-mono;
+  }
+
+  .terminal-header {
+    @apply flex items-center gap-2 px-4 py-3 bg-dark-border/50;
+  }
+
+  .terminal-dot {
+    @apply w-3 h-3 rounded-full;
+  }
+
+  .terminal-body {
+    @apply p-4 text-sm;
+  }
+
+  .terminal-prompt {
+    @apply text-kotlinPurple-400;
+  }
+
+  .terminal-cursor {
+    @apply inline-block w-2 h-4 bg-techBlue-400 ml-1 animate-terminal-blink;
+  }
+
+  .skill-badge {
+    @apply px-4 py-2 rounded-full text-sm font-medium bg-gradient-to-r from-techBlue-500/20 to-kotlinPurple-500/20 border border-techBlue-500/30 hover:border-kotlinPurple-500/50 transition-all duration-300;
+  }
+
+  .nav-link {
+    @apply relative text-gray-600 dark:text-gray-300 hover:text-techBlue-500 dark:hover:text-techBlue-400 transition-colors duration-200;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-techBlue-500 to-kotlinPurple-500 transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dark-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-dark-border rounded-full hover:bg-kotlinPurple-500/50;
+}
