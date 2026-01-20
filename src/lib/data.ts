@@ -23,7 +23,7 @@ export const profileData = {
     {
       role: "Lead Technical Support",
       company: "Tamtech International",
-      period: "Dec 2025 - Present",
+      period: "Nov 2025 - Present",
       type: "professional",
       description: "Spearhead a cross-functional support team, orchestrating system reliability initiatives and establishing comprehensive knowledge transfer protocols to ensure seamless operations."
     },
