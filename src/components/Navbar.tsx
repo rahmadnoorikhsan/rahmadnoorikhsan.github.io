@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTheme } from "next-themes";
+import { usePathname } from "next/navigation";
 import { Sun, Moon, Menu, X, Terminal } from "lucide-react";
 
 const navLinks = [
@@ -19,6 +20,8 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
+  const pathname = usePathname();
+  const isHome = pathname === "/";
 
   useEffect(() => {
     setMounted(true);
@@ -30,6 +33,8 @@ export default function Navbar() {
   }, []);
 
   if (!mounted) return null;
+
+  const getHref = (hash: string) => (isHome ? hash : `/${hash}`);
 
   return (
     <>
@@ -47,7 +52,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <motion.a
-              href="#home"
+              href={isHome ? "#home" : "/"}
               className="flex items-center gap-2 text-xl font-bold"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -59,7 +64,7 @@ export default function Navbar() {
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-8">
               {navLinks.map((link) => (
-                <a key={link.name} href={link.href} className="nav-link">
+                <a key={link.name} href={getHref(link.href)} className="nav-link">
                   {link.name}
                 </a>
               ))}
@@ -122,7 +127,7 @@ export default function Navbar() {
                 {navLinks.map((link, index) => (
                   <motion.a
                     key={link.name}
-                    href={link.href}
+                    href={getHref(link.href)}
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1 }}
