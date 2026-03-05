@@ -92,14 +92,14 @@ export const profileData = {
       role: "Mobile Development Assistant Mentor",
       company: "Infinite Learning Indonesia",
       period: "Aug 2024 - Dec 2024",
-      type: ["professional","mentorship"],
+      type: "professional",
       description: "Coordinated mentor operations and supervised hands-on coding sessions, ensuring seamless delivery of practical activities and optimizing class logistics for participants."
     },
     {
       role: "Mobile Development Technical Mentor",
       company: "Infinite Learning Indonesia",
       period: "Jan 2024 - Jul 2024",
-      type: ["professional","mentorship"],
+      type: "professional",
       description: "Spearheaded Kotlin and Jetpack Compose curriculum delivery for 25 mentees in the Kampus Merdeka program. Guided learners through research, design, and development phases using Agile methodologies."
     },
     {
