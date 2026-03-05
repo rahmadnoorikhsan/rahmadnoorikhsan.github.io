@@ -47,13 +47,6 @@ export const profileData = {
       description: "Spearhead a cross-functional support team, orchestrating system reliability initiatives and establishing comprehensive knowledge transfer protocols to ensure seamless operations."
     },
     {
-      role: "Multi-Platform App Developer Cohort",
-      company: "BEKUP (Baparekraf for Startup)",
-      period: "Jul 2025 - Present",
-      type: "education",
-      description: "Architecting production-grade Flutter applications while applying SOLID principles and integrating AI/ML capabilities. Delivered MVP capstone demonstrating full-stack mobile proficiency."
-    },
-    {
       role: "Freelance Mobile Developer",
       company: "Fastwork Technologies Indonesia",
       period: "Dec 2023 - Present",
@@ -66,6 +59,13 @@ export const profileData = {
       period: "Jun 2024 - Present",
       type: "volunteering",
       description: "Empower aspiring developers by providing technical guidance and debugging support across Dicoding's learning platform, accelerating student progression through complex programming challenges."
+    },
+    {
+      role: "Multi-Platform App Developer Cohort",
+      company: "BEKUP (Baparekraf for Startup)",
+      period: "Jul 2025 - Nov 2025",
+      type: "education",
+      description: "Architecting production-grade Flutter applications while applying SOLID principles and integrating AI/ML capabilities. Delivered MVP capstone demonstrating full-stack mobile proficiency."
     },
     {
       role: "Expert Android Development Facilitator",
